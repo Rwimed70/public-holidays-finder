@@ -27,3 +27,20 @@ A beginner-friendly web app that allows users to view public holidays for a sele
 - ✅ Added custom `index.html` in the `public` folder.
 - 🎯 Set up HTML head section: meta tags, title, favicon, and root div.
 - 🛠️ Verified that the app starts successfully with `npm start`.
+
+What I did so far for CSS
+🗓️ June 1, 2025
+
+✅ Styled the main layout to center the content and give it a clean look with padding, borders, and shadow
+✅ Customized the header with bold and centered text
+✅ Created consistent spacing for input fields using .input-group
+✅ Styled input fields and button for better user experience
+✅ Added hover effect and disabled state for the search button
+✅ Styled the holidays list to display neatly with spacing between items
+
+Design Approach:
+Used a modern flat UI with soft shadows and rounded borders
+Followed a mobile-friendly design by using percentage widths and padding
+Kept the color scheme light and accessible (blue button, white/gray background)
+
+
