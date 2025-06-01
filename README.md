@@ -36,7 +36,7 @@ What I did so far for CSS
 ✅ Created consistent spacing for input fields using .input-group
 ✅ Styled input fields and button for better user experience
 ✅ Added hover effect and disabled state for the search button
-✅ Styled the holidays list to display neatly with spacing between items
+✅ Styled the holidays list to display neatly with spacing between items and also added the logo of htw just for fun
 
 Design Approach:
 Used a modern flat UI with soft shadows and rounded borders
