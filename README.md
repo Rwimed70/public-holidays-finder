@@ -33,8 +33,10 @@ What I did so far for CSS
 
 ✅ Styled the main layout to center the content and give it a clean look with padding, borders, and shadow
 ✅ Customized the header with bold and centered text
+🗓️ June 3, 2025
 ✅ Created consistent spacing for input fields using .input-group
 ✅ Styled input fields and button for better user experience
+🗓️ June 6, 2025
 ✅ Added hover effect and disabled state for the search button
 ✅ Styled the holidays list to display neatly with spacing between items and also added the logo of htw just for fun
 
