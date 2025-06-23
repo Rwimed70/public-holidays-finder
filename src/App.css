@@ -1,72 +1,93 @@
+/* App.css */
+
 body {
   margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Equirectangular_projection_SW.jpg/1920px-Equirectangular_projection_SW.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
 }
 
 .App {
-  text-align: center;
-  padding: 40px 20px;
-}
-
-.App img {
-  width: 120px;
-  margin-bottom: 10px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
 .App-header {
-  background-color: white;
-  border-radius: 10px;
-  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 40px;
   max-width: 600px;
-  margin: 0 auto;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
 }
 
-h1 {
-  margin-bottom: 10px;
-  color: #222;
+.App-header h1 {
+  margin-top: 0;
+  font-size: 2.5em;
+  color: #1c3c72;
+}
+
+.App-header p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+img {
+  width: 150px;
+  margin-bottom: 20px;
 }
 
 label {
-  margin-right: 10px;
+  display: block;
+  margin-bottom: 15px;
   font-weight: 500;
 }
 
 select {
-  margin: 0 5px;
-  padding: 5px 10px;
-  font-size: 14px;
-  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
   border: 1px solid #ccc;
+  margin-top: 5px;
+  width: 100%;
+  max-width: 250px;
 }
 
 button {
-  padding: 6px 14px;
-  font-size: 14px;
+  padding: 12px 24px;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 8px;
   border: none;
-  background-color: #2c89e2;
+  background-color: #1c3c72;
   color: white;
-  border-radius: 5px;
   cursor: pointer;
-  margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #206bb4;
+  background-color: #135ab7;
 }
 
 ul {
   list-style: none;
   padding: 0;
-  margin-top: 20px;
+  margin-top: 25px;
   text-align: left;
 }
 
 li {
-  background: #e0ecff;
-  margin: 5px 0;
-  padding: 8px 12px;
-  border-radius: 5px;
+  background-color: #f3f3f3;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-size: 0.95em;
 }
