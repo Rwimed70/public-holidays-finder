@@ -28,17 +28,29 @@ A beginner-friendly web app that allows users to view public holidays for a sele
 - 🎯 Set up HTML head section: meta tags, title, favicon, and root div.
 - 🛠️ Verified that the app starts successfully with `npm start`.
 
-What I did so far for CSS
+What I did so far for 
 🗓️ June 1, 2025
-
 ✅ Styled the main layout to center the content and give it a clean look with padding, borders, and shadow
 ✅ Customized the header with bold and centered text
+
 🗓️ June 3, 2025
 ✅ Created consistent spacing for input fields using .input-group
 ✅ Styled input fields and button for better user experience
+
 🗓️ June 6, 2025
 ✅ Added hover effect and disabled state for the search button
 ✅ Styled the holidays list to display neatly with spacing between items and also added the logo of htw just for fun
+
+🗓️ June 14, 2025
+✅I cleaned up App.js React component to make it easier to read and better organized.  
+✅I changed the country list so it sorts countries alphabetically before showing them.  
+
+🗓️ June 20, 2025
+✅I also updated the year dropdown to create a list of years starting from this year and going up to 10 years ahead.  
+✅Lastly, I moved the HTW logo to sit above the country and year selectors to improve the layout.
+
+
+
 
 Design Approach:
 Used a modern flat UI with soft shadows and rounded borders
