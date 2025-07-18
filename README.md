@@ -45,9 +45,11 @@ Main responsibilities:
 cd public-holidays-finder/npm start
 npm start (to start the web)
 
+---
 
 
-## 🎯 <span style="color:purple">Daily Progress</span>
+
+## Daily Progress
 *2025-05-29*: Repository created, documented the project idea, tech stack, and project plan.
 
 ## 📌 Progress Updates
