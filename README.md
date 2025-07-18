@@ -1,21 +1,51 @@
-# Public Holidays Finder
+# 🌍 Public Holidays Finder
 
-## Project Description
-A beginner-friendly web app that allows users to view public holidays for a selected country and year using open data.
+A simple React-based web application that allows users to search for public holidays by country and year. The app fetches live data from the **Nager.Date public holidays API** and displays holidays in an easy-to-read list.
 
-## Tech Stack
-- HTML, CSS, JavaScript (Frontend)
-- Open Data API: https://date.nager.at/Api
+---
 
-## Features
-- Dropdown to select country and year
-- Fetch and display holidays
-- Backend to log user queries
+## 📌 Features
 
-## Project Status
-- ✅ Repository created
-- 🔄 Frontend development in progress
-- ⬜ Backend setup
+- Select any country from a full list of available countries.
+- Choose any year from the current year up to 10 years ahead.
+- View an automatically fetched list of public holidays.
+- Clean and responsive UI.
+- Fully client-side (no backend required).
+
+---
+
+## ⚙️ Technologies Used
+
+- React (with `useState` and `useEffect`)
+- HTML5 / CSS3
+- JavaScript (ES6+)
+- Nager.Date Public Holidays API (`https://date.nager.at`)
+- Hosted background image & logo
+
+---
+
+## 🎯 Architecture Overview
+
+This project follows a **frontend-only architecture** using React components.  
+Main responsibilities:
+
+- `App.js`: Main logic and UI
+  - Manages country/year selections and state
+  - Fetches country list and holidays via `fetch()`
+  - Renders results dynamically
+- `App.css`: Custom styling for layout, colors, and responsiveness
+- No backend server — runs entirely in the browser
+
+---
+
+## 🧑‍💻 How to Run the App
+
+### 1. 
+```bash
+cd public-holidays-finder/npm start
+npm start (to start the web)
+
+
 
 ## Daily Progress
 **2025-05-29**: Repository created, documented the project idea, tech stack, and project plan.
@@ -39,9 +69,6 @@ What I did so far for CSS
 ✅ Added hover effect and disabled state for the search button
 ✅ Styled the holidays list to display neatly with spacing between items and also added the logo of htw just for fun
 
-Design Approach:
-Used a modern flat UI with soft shadows and rounded borders
-Followed a mobile-friendly design by using percentage widths and padding
-Kept the color scheme light and accessible (blue button, white/gray background)
+
 
 
