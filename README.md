@@ -5,7 +5,6 @@ A beginner-friendly web app that allows users to view public holidays for a sele
 
 ## Tech Stack
 - HTML, CSS, JavaScript (Frontend)
-- C# ASP.NET Web API (Backend)
 - Open Data API: https://date.nager.at/Api
 
 ## Features
