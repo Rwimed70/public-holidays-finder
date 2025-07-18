@@ -48,31 +48,32 @@ npm start (to start the web)
 
 
 ## Daily Progress
-**2025-05-29**: Repository created, documented the project idea, tech stack, and project plan.
+*2025-05-29*: Repository created, documented the project idea, tech stack, and project plan.
 
 ## 📌 Progress Updates
 
 ### 🗓️ May 29, 2025
-- ✅ Added custom `index.html` in the `public` folder.
+- ✅ Added custom index.html in the public folder.
 - 🎯 Set up HTML head section: meta tags, title, favicon, and root div.
-- 🛠️ Verified that the app starts successfully with `npm start`.
+- 🛠️ Verified that the app starts successfully with npm start.
 
-What I did so far for CSS
-🗓️ June 1, 2025
+### 🗓️ June 1, 2025
+- ✅ Styled the main layout to center the content and give it a clean look with padding, borders, and shadow
+- ✅ Customized the header with bold and centered text
 
-✅ Styled the main layout to center the content and give it a clean look with padding, borders, and shadow
-✅ Customized the header with bold and centered text
-🗓️ June 3, 2025
-✅ Created consistent spacing for input fields using .input-group
-✅ Styled input fields and button for better user experience
-🗓️ June 6, 2025
-✅ Added hover effect and disabled state for the search button
-✅ Styled the holidays list to display neatly with spacing between items and also added the logo of htw just for fun
+### 🗓️ June 3, 2025
+- ✅ Created consistent spacing for input fields using .input-group
+- ✅ Styled input fields and button for better user experience
+
+### 🗓️ June 6, 2025
+- ✅ Added hover effect and disabled state for the search button
+- ✅ Styled the holidays list to display neatly with spacing between items and also added the logo of HTW just for fun
 
 ---
+
 # ✨ Reflection: Public Holidays Finder
 
-Developing the **Public Holidays Finder** web application was an exciting and challenging learning experience. 🚀 The project allowed me to practice working with **React**, **external APIs**, and **frontend architecture** while also pushing me to solve problems independently. 🧠💻
+Developing the *Public Holidays Finder* web application was an exciting and challenging learning experience. 🚀 The project allowed me to practice working with *React*, *external APIs*, and *frontend architecture* while also pushing me to solve problems independently. 🧠💻
 
 ---
 
@@ -80,10 +81,10 @@ Developing the **Public Holidays Finder** web application was an exciting and ch
 
 Throughout the project, I improved my ability to:
 
-- ⚛️ Use **React hooks** such as `useState` and `useEffect` to manage dynamic UI behavior.
-- 🌐 Work with **third-party APIs** (specifically the Nager.Date public holidays API) and parse JSON responses to display meaningful information to the user.
-- 🎨 Create a **clean, responsive, and accessible UI** using pure CSS.
-- 🧱 Simplify the architecture by removing unnecessary backend components and restructuring the application as a **fully frontend-based app**.
+- ⚛️ Use *React hooks* such as useState and useEffect to manage dynamic UI behavior.
+- 🌐 Work with *third-party APIs* (specifically the Nager.Date public holidays API) and parse JSON responses to display meaningful information to the user.
+- 🎨 Create a *clean, responsive, and accessible UI* using pure CSS.
+- 🧱 Simplify the architecture by removing unnecessary backend components and restructuring the application as a *fully frontend-based app*.
 
 ---
 
@@ -100,8 +101,8 @@ I had to:
 
 #### 2️⃣ API Integration and Error Handling
 Fetching data from the public holidays API wasn’t as simple as expected:  
-- ❗ Some countries didn’t return holiday data for all years, which required **basic error handling** and **user feedback**.
-- 🕓 There was no built-in loading state, so I had to consider **UX improvements** for slow connections.
+- ❗ Some countries didn’t return holiday data for all years, which required *basic error handling* and *user feedback*.
+- 🕓 There was no built-in loading state, so I had to consider *UX improvements* for slow connections.
 
 #### 3️⃣ Dynamic Form Updates
 React’s controlled components can be tricky when you're new. I had to:
@@ -121,17 +122,18 @@ Challenges included:
 
 If I had more time or in a more advanced version of the project, I would:
 
-- 🔍 Add a **search bar** to quickly find a country instead of scrolling.
-- 🚩 Show **country flags** beside the dropdown options for better UX.
+- 🔍 Add a *search bar* to quickly find a country instead of scrolling.
+- 🚩 Show *country flags* beside the dropdown options for better UX.
 - 💾 Cache the country list to avoid redundant API calls.
-- 🔄 Add a **loader/spinner** while waiting for the holiday data to load.
+- 🔄 Add a *loader/spinner* while waiting for the holiday data to load.
 - 🔐 Possibly reintroduce authentication for user-specific features (like saving favorite countries).
 
 ---
 
 ### 💬 Final Thoughts
 
-This project was a meaningful opportunity to explore the **React ecosystem**, work with real-time API data, and make decisions about how a simple web app should be structured. Despite the challenges, I gained a deeper understanding of **frontend development**, improved my **problem-solving skills**, and feel more confident in building interactive, data-driven web applications. 🌍
+This project was a meaningful opportunity to explore the *React ecosystem*, work with real-time API data, and make decisions about how a simple web app should be structured. Despite the challenges, I gained a deeper understanding of *frontend development*, improved my *problem-solving skills*, and feel more confident in building interactive, data-driven web applications. 🌍
+
 
 
 
