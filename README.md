@@ -69,6 +69,26 @@ What I did so far for CSS
 ✅ Added hover effect and disabled state for the search button
 ✅ Styled the holidays list to display neatly with spacing between items and also added the logo of htw just for fun
 
+---
+# Reflection: Public Holidays Finder
+
+Developing the Public Holidays Finder web application was a valuable experience in applying my knowledge of frontend technologies and working with external APIs.
+
+One of the key lessons was using **React hooks** like `useState` and `useEffect`. These tools helped me create a dynamic and interactive user interface. User input, like selecting a country or year, could instantly update the application without requiring a page reload.
+
+I also learned how to **work with a public API**, specifically the Nager.Date public holidays API. I figured out how to fetch data asynchronously with the `fetch()` API, handle possible errors, and render lists dynamically in JSX.
+
+Initially, this app had a backend component with user authentication. However, I opted to **simplify the project** and keep it frontend-only. This choice required me to clean up the code and remove all backend connections, which taught me how to manage and refactor React components effectively.
+
+From a UI/UX standpoint, I aimed to build a clean and user-friendly interface using CSS and responsive layout techniques. I made sure to include accessibility by using form labels and semantic HTML.
+
+In the future, I plan to improve the app by adding:
+- Holiday filtering by month or type
+- Localization to support different languages
+- A search bar for quick country lookup
+- Caching to reduce API calls
+
+Overall, this project helped me strengthen my frontend development skills, understand how to integrate APIs, and reflect on how to design simple but effective user experiences. It also prepared me for working on larger web applications in future courses or job settings.
 
 
 
