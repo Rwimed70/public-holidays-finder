@@ -47,7 +47,7 @@ npm start (to start the web)
 
 
 
-## Daily Progress
+## 🎯 <span style="color:purple">Daily Progress</span>
 *2025-05-29*: Repository created, documented the project idea, tech stack, and project plan.
 
 ## 📌 Progress Updates
