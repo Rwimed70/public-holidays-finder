@@ -70,25 +70,69 @@ What I did so far for CSS
 ✅ Styled the holidays list to display neatly with spacing between items and also added the logo of htw just for fun
 
 ---
-# Reflection: Public Holidays Finder
+# ✨ Reflection: Public Holidays Finder
 
-Developing the Public Holidays Finder web application was a valuable experience in applying my knowledge of frontend technologies and working with external APIs.
+Developing the **Public Holidays Finder** web application was an exciting and challenging learning experience. 🚀 The project allowed me to practice working with **React**, **external APIs**, and **frontend architecture** while also pushing me to solve problems independently. 🧠💻
 
-One of the key lessons was using **React hooks** like `useState` and `useEffect`. These tools helped me create a dynamic and interactive user interface. User input, like selecting a country or year, could instantly update the application without requiring a page reload.
+---
 
-I also learned how to **work with a public API**, specifically the Nager.Date public holidays API. I figured out how to fetch data asynchronously with the `fetch()` API, handle possible errors, and render lists dynamically in JSX.
+### 📘 What I Learned
 
-Initially, this app had a backend component with user authentication. However, I opted to **simplify the project** and keep it frontend-only. This choice required me to clean up the code and remove all backend connections, which taught me how to manage and refactor React components effectively.
+Throughout the project, I improved my ability to:
 
-From a UI/UX standpoint, I aimed to build a clean and user-friendly interface using CSS and responsive layout techniques. I made sure to include accessibility by using form labels and semantic HTML.
+- ⚛️ Use **React hooks** such as `useState` and `useEffect` to manage dynamic UI behavior.
+- 🌐 Work with **third-party APIs** (specifically the Nager.Date public holidays API) and parse JSON responses to display meaningful information to the user.
+- 🎨 Create a **clean, responsive, and accessible UI** using pure CSS.
+- 🧱 Simplify the architecture by removing unnecessary backend components and restructuring the application as a **fully frontend-based app**.
 
-In the future, I plan to improve the app by adding:
-- Holiday filtering by month or type
-- Localization to support different languages
-- A search bar for quick country lookup
-- Caching to reduce API calls
+---
 
-Overall, this project helped me strengthen my frontend development skills, understand how to integrate APIs, and reflect on how to design simple but effective user experiences. It also prepared me for working on larger web applications in future courses or job settings.
+### ⚠️ Challenges I Faced
+
+While building the app, I encountered several challenges that helped me grow:
+
+#### 1️⃣ Removing the Backend and Authentication
+Initially, the app included a backend for registration and login. Refactoring the app to remove all backend logic and reorganizing it into a frontend-only structure was challenging. 🔧  
+I had to:
+- 🧹 Identify and safely delete unnecessary state variables and handlers.
+- 🧭 Ensure the UI still made sense without login prompts.
+- 🧩 Avoid breaking the flow of the app while making these structural changes.
+
+#### 2️⃣ API Integration and Error Handling
+Fetching data from the public holidays API wasn’t as simple as expected:  
+- ❗ Some countries didn’t return holiday data for all years, which required **basic error handling** and **user feedback**.
+- 🕓 There was no built-in loading state, so I had to consider **UX improvements** for slow connections.
+
+#### 3️⃣ Dynamic Form Updates
+React’s controlled components can be tricky when you're new. I had to:
+- 🔁 Ensure the selected country and year stayed in sync with the component state.
+- 🛡️ Prevent unnecessary re-renders or empty dropdowns when data hadn’t loaded yet.
+
+#### 4️⃣ UI/UX Responsiveness
+Designing the layout to look good on both desktop and mobile was another area that needed attention.  
+Challenges included:
+- 👓 Text readability over a background image
+- 📱 Dropdowns and buttons resizing correctly on smaller screens
+- 📜 Making sure holiday lists were scrollable and user-friendly
+
+---
+
+### 🌱 How I’d Improve It in the Future
+
+If I had more time or in a more advanced version of the project, I would:
+
+- 🔍 Add a **search bar** to quickly find a country instead of scrolling.
+- 🚩 Show **country flags** beside the dropdown options for better UX.
+- 💾 Cache the country list to avoid redundant API calls.
+- 🔄 Add a **loader/spinner** while waiting for the holiday data to load.
+- 🔐 Possibly reintroduce authentication for user-specific features (like saving favorite countries).
+
+---
+
+### 💬 Final Thoughts
+
+This project was a meaningful opportunity to explore the **React ecosystem**, work with real-time API data, and make decisions about how a simple web app should be structured. Despite the challenges, I gained a deeper understanding of **frontend development**, improved my **problem-solving skills**, and feel more confident in building interactive, data-driven web applications. 🌍
+
 
 
 
