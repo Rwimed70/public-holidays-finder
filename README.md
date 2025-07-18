@@ -14,7 +14,7 @@ A simple React-based web application that allows users to search for public holi
 
 ---
 
-## ⚙️ Technologies Used
+## ⚙️ Techstack Used
 
 - React (with `useState` and `useEffect`)
 - HTML5 / CSS3
