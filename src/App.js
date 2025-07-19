@@ -7,25 +7,32 @@ function App() {
   const [holidays, setHolidays] = useState([]);
   const [countries, setCountries] = useState([]);
 
-  // Fetch and sort country list on first load
+  // Fetch country list on load
   useEffect(() => {
     const fetchCountries = async () => {
-      const response = await fetch('https://date.nager.at/api/v3/AvailableCountries');
-      const data = await response.json();
-
-      // Sort countries alphabetically
-      const sortedCountries = data.sort((a, b) => a.name.localeCompare(b.name));
-      setCountries(sortedCountries);
+      try {
+        const response = await fetch('https://date.nager.at/api/v3/AvailableCountries');
+        const data = await response.json();
+        const sortedCountries = data.sort((a, b) => a.name.localeCompare(b.name));
+        setCountries(sortedCountries);
+      } catch (error) {
+        console.error("Error fetching countries:", error);
+      }
     };
 
     fetchCountries();
   }, []);
 
-  // Fetch holidays based on selected year and country
+  // Fetch holidays
   const fetchHolidays = async () => {
-    const response = await fetch(`https://date.nager.at/api/v3/PublicHolidays/${year}/${country}`);
-    const data = await response.json();
-    setHolidays(data);
+    try {
+      const response = await fetch(`https://date.nager.at/api/v3/PublicHolidays/${year}/${country}`);
+      const data = await response.json();
+      setHolidays(data);
+    } catch (error) {
+      console.error("Error fetching holidays:", error);
+      setHolidays([]);
+    }
   };
 
   return (
@@ -41,7 +48,6 @@ function App() {
         />
 
         <div>
-          {/* Country Dropdown */}
           <label>
             Country:
             <select value={country} onChange={(e) => setCountry(e.target.value)}>
@@ -53,10 +59,9 @@ function App() {
             </select>
           </label>
 
-          {/* Year Dropdown */}
           <label>
             Year:
-            <select value={year} onChange={(e) => setYear(e.target.value)}>
+            <select value={year} onChange={(e) => setYear(Number(e.target.value))}>
               {Array.from({ length: 11 }, (_, i) => {
                 const y = new Date().getFullYear() + i;
                 return (
@@ -69,10 +74,8 @@ function App() {
           </label>
         </div>
 
-        {/* Fetch Holidays Button */}
         <button onClick={fetchHolidays}>Find Holidays</button>
 
-        {/* Holidays Display */}
         <div>
           {holidays.length > 0 && (
             <ul>
