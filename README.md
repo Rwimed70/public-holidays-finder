@@ -1,4 +1,4 @@
-# Public Holidays Finder
+# Public Holidays Finder (Documentation)
 
 Simple React-based web application that allows users to search for public holidays in a country and year. The application makes live calls to the *Nager.Date public holidays API* and returns holidays as a nicely readable list.
 
